@@ -1,0 +1,147 @@
+:root {
+    --bg-header: #ff0000;
+    --bg-main: #ffa500;
+    --bg-section: #ffff00;
+    --bg-footer: #008000;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+ul {
+    margin: 0;
+}
+
+.box {
+    font-size: 1.8rem;
+    padding: 10px 20px;
+    border: 2px solid rgba(210, 44, 44, 0.771);
+    margin-bottom: 10px;
+}
+
+.taks__one--wrap>form {
+    padding-bottom: 10px;
+}
+
+.taks__one__input {
+    font-size: 2rem;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+.taks__one__save-btn,
+.taks__one__show-btn,
+#todo-btn {
+    font-size: 2.5rem;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+    transition: .2s linear;
+    background: #0B63F6;
+}
+
+.taks__one__show {
+    padding: 5px 10px;
+    border: 2px solid rgba(248, 158, 158, 0.771);
+    margin-top: 10px;
+}
+
+.taks__two__todo--wrap {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+#task {
+    font-size: 1.8rem;
+    padding: 5px 10px;
+}
+
+
+.taks__two__todo__list__item {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid blue;
+    margin-bottom: 5px;
+}
+
+.taks__two__todo__list__item>input {
+    font-size: 1.6rem;
+}
+
+.taks__two__todo__list__item div.hide {
+    display: none;
+}
+
+.taks__two__todo__list__item__icon-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.taks__two__todo__list__item__icon-wrap__delete {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.taks__two__todo__list__item__icon-wrap__edit,
+.taks__two__todo__list__item__icon-wrap__done {
+    cursor: pointer;
+}
+
+
+.taks__three--wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.taks__three__page {
+    width: 40%;
+    border: 2px solid rgb(88, 88, 235);
+}
+
+.taks__three__page__header,
+.taks__three__page__footer {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+}
+
+.taks__three__page__header {
+    background-color: var(--bg-header);
+}
+
+.taks__three__page__main {
+    text-align: center;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: var(--bg-main);
+}
+
+.taks__three__page__main__section {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    background-color: var(--bg-section);
+}
+
+.taks__three__page__footer {
+    background-color: var(--bg-footer);
+}
+
+.taks__three__settings {
+    width: 50%;
+}
+
+.taks__three__settings__color {
+    padding-bottom: 5px;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW14</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+
+    <div class="taks__one box">
+        <h2>Task 1</h2>
+        <div class="taks__one--wrap">
+            <form>
+                <input class="taks__one__input" type="text" placeholder="Type text here...">
+                <button class="taks__one__save-btn">Save</button>
+            </form>
+            <button class="taks__one__show-btn">Show from sessionStorage</button>
+            <div class="taks__one__show">
+                <h2 class="taks__one__show__title">Here you can see text you have saved in sessionStorage</h2>
+                <strong class="taks__one__show__save-text"></strong>
+            </div>
+        </div>
+    </div>
+
+    <div class="taks__two box">
+        <h2>Task 2</h2>
+        <div class="taks__two__todo">
+            <form>
+                <div class="taks__two__todo--wrap">
+                    <div class="taks__two__todo__input">
+                        <label for="task">Type here your task:</label>
+                        <input type="text" id="task">
+                    </div>
+                    <input id="todo-btn" type="button" value="Add task to the list">
+                </div>
+            </form>
+            <ul class="taks__two__todo__list"></ul>
+        </div>
+    </div>
+
+
+    <div class="taks__three box">
+        <h2>Task 3</h2>
+        <div class="taks__three--wrap">
+            <div class="taks__three__page">
+                <div class="taks__three__page__header">
+                    Header
+                </div>
+                <div class="taks__three__page__main">
+                    Main 
+                    <section class="taks__three__page__main__section">Section</section>
+                </div>
+                <div class="taks__three__page__footer">Footer</div>
+            </div>
+            <div class="taks__three__settings">
+                <form>
+                    <div class="taks__three__settings__color">
+                        <label for="colorHeader">Header: </label>
+                        <input type="color" id="colorHeader">
+                    </div>
+                    <div class="taks__three__settings__color">
+                        <label for="colorMain">Main: </label>
+                        <input type="color" id="colorMain">
+                    </div>
+                    <div class="taks__three__settings__color">
+                        <label for="colorMainSection">Main>section: </label>
+                        <input type="color" id="colorMainSection">
+                    </div>
+                    <div class="taks__three__settings__color">
+                        <label for="colorFooter">Footer: </label>
+                        <input type="color" id="colorFooter">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
